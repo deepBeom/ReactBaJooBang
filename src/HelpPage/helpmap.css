@@ -1,0 +1,83 @@
+/*매물검색라인*/
+.search {
+  margin-top: 10px; /* 네비게이션 바 아래 여백 */
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+}
+
+/*매물검색라인_검색창*/
+.search input {
+  width: 300px;
+  padding: 5px;
+  margin-right: 20px;
+  margin-left: 5px;
+  border-style: none;
+}
+
+.searchbox {
+  border-radius: 20px;
+  border : 1px solid gray;
+}
+
+/*매물검색라인_월세전세선택 버튼*/
+.house_type_buttons button {
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(74, 74, 74);
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  padding: 5px 16px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.house_type_buttons button:hover,
+.house_type_buttons button.active {
+  background-color: #D2DE32;
+  color: rgb(255, 255, 255);
+}
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%; /* 전체 너비를 사용하도록 설정 */
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+}
+
+.right_elements {
+  margin-left: auto;
+  margin-right: 150px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-and-bell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.search {
+  flex-grow: 1;  
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.right_elements {
+  flex-grow: 0; 
+  margin-left: auto;
+  margin-right: 0; 
+}
+
+.notification-container {
+  padding-right:150px;
+}
+
